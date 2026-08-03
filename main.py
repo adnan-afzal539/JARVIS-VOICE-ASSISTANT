@@ -94,9 +94,7 @@ def processCommand(c):
         music = c.lower().replace("play","").strip()
         link = songsLibrairy.songs[music]
         webbrowser.open(link)
-
-    elif "sherry" in c.lower() or "hammad" in c.lower():
-        speak("They are great man no one can dare tallk  regarding them my love")
+        
 
     elif "news" in c.lower():
         get_news()
